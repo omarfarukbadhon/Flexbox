@@ -1,0 +1,115 @@
+.info-container{
+    width: 290px;
+    height: 75px;
+    border: solid;
+    border-radius: 8px;
+    border-color: rgb(214, 208, 208);
+    padding: 8px 10px;
+    margin: 20px 20px;
+    margin-bottom: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 28px;
+    justify-content: space-between;
+}
+
+.home,
+.notification,
+.message{
+    margin: 0px 0px; 
+}
+
+.info-home,
+.info-notification,
+.info-message{
+    margin: 0px 0px; 
+}
+
+.info-home{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 1px 8px;
+}
+
+.info-message,
+.info-notification{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 9px;
+    padding: 1px 8px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: rgb(171, 38, 204);
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+
+.header-home{
+    width: 80px;
+    margin-left: 10px;
+}
+
+.flex-home{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header-search{
+
+    margin-left: 10px;
+    flex: 1;
+    margin-right: 20px;
+    max-width: 400px;
+    height: 30px;
+
+}
+
+.search{
+    border-radius: 10px;
+    border: none;
+    width: 320px;
+    margin-left: 20px;
+    margin-top: 4px;
+    padding: 4px 3px;
+}
+
+::placeholder {
+    font-size: 8px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.header-button{
+    width: 80px;
+    margin-right: 10px;
+}
+
+.download{
+    background-color: rgb(171, 38, 204);
+    color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
